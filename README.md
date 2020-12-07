@@ -11,4 +11,4 @@ https://github.com/acoreynews/acoreynews.github.io/
 
 Customized homepage coming soon to:
 
-http://acoreynews.github.io/
+https://acoreynews.github.io/
