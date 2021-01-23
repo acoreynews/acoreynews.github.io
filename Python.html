@@ -275,7 +275,7 @@
         students<span style="color: #333333">.</span>append(rows[r])
         r <span style="color: #333333">+=</span> <span style="color: #0000DD; font-weight: bold">1</span>
 
-    <span style="color: #008800; font-weight: bold">while</span> x <span style="color: #333333">&lt;</span> <span style="color: #0000DD; font-weight: bold">29</span>:  <span style="color: #888888">#hardcoded BAHHHD</span>
+    <span style="color: #008800; font-weight: bold">while</span> x <span style="color: #333333">&lt;</span> <span style="color: #0000DD; font-weight: bold">29</span>:  
         <span style="color: #008800; font-weight: bold">while</span> y <span style="color: #333333">&lt;</span> <span style="color: #0000DD; font-weight: bold">12</span>:
             <span style="color: #008800; font-weight: bold">if</span> <span style="color: #007020">len</span>(students[x][y]) <span style="color: #333333">==</span> <span style="color: #0000DD; font-weight: bold">0</span>:
                 students[x][y] <span style="color: #333333">=</span> <span style="color: #007020">int</span>(students[x][y]<span style="color: #333333">.</span>replace(<span style="background-color: #fff0f0">&#39;&#39;</span>,<span style="background-color: #fff0f0">&#39;0&#39;</span>))
@@ -286,7 +286,7 @@
     x <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>  <span style="color: #888888"># reset vars</span>
     y <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">2</span>  <span style="color: #888888"># reset vars</span>
     
-    <span style="color: #008800; font-weight: bold">while</span> x <span style="color: #333333">&lt;</span> <span style="color: #0000DD; font-weight: bold">29</span>:  <span style="color: #888888">#hardcoded BAHHHD</span>
+    <span style="color: #008800; font-weight: bold">while</span> x <span style="color: #333333">&lt;</span> <span style="color: #0000DD; font-weight: bold">29</span>:  
         <span style="color: #008800; font-weight: bold">while</span> y <span style="color: #333333">&lt;</span> <span style="color: #0000DD; font-weight: bold">12</span>:
             <span style="color: #008800; font-weight: bold">if</span> students[x][y] <span style="color: #333333">!=</span> <span style="color: #0000DD; font-weight: bold">0</span>:
                 students[x][y] <span style="color: #333333">=</span> <span style="color: #007020">int</span>(students[x][y])
@@ -303,11 +303,11 @@
             assign_sum <span style="color: #333333">+=</span> students[x][y]
             y <span style="color: #333333">+=</span> <span style="color: #0000DD; font-weight: bold">1</span>
         y <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">2</span>  <span style="color: #888888"># reset counter for items in row</span>
-        assign_avg <span style="color: #333333">=</span> assign_sum <span style="color: #333333">/</span> <span style="color: #0000DD; font-weight: bold">8</span>  <span style="color: #888888">#remove hardcoding?</span>
+        assign_avg <span style="color: #333333">=</span> assign_sum <span style="color: #333333">/</span> <span style="color: #0000DD; font-weight: bold">8</span>  
         
         test_sum   <span style="color: #333333">+=</span> (<span style="color: #007020">int</span>(students[x][<span style="color: #0000DD; font-weight: bold">10</span>]) <span style="color: #333333">+</span> <span style="color: #007020">int</span>(students[x][<span style="color: #0000DD; font-weight: bold">11</span>]))
         test_avg   <span style="color: #333333">=</span> test_sum <span style="color: #333333">/</span> <span style="color: #0000DD; font-weight: bold">2</span>
-        total_avg  <span style="color: #333333">=</span> (<span style="color: #0000DD; font-weight: bold">40</span> <span style="color: #333333">*</span> assign_avg <span style="color: #333333">+</span> <span style="color: #0000DD; font-weight: bold">60</span> <span style="color: #333333">*</span> test_avg) <span style="color: #333333">/</span> <span style="color: #6600EE; font-weight: bold">100.0</span>            <span style="color: #888888"># make weights constants?</span>
+        total_avg  <span style="color: #333333">=</span> (<span style="color: #0000DD; font-weight: bold">40</span> <span style="color: #333333">*</span> assign_avg <span style="color: #333333">+</span> <span style="color: #0000DD; font-weight: bold">60</span> <span style="color: #333333">*</span> test_avg) <span style="color: #333333">/</span> <span style="color: #6600EE; font-weight: bold">100.0</span>           
         students[x]<span style="color: #333333">.</span>append(total_avg)
         assign_sum <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #888888"># reset var for next student row</span>
         test_sum   <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span> <span style="color: #888888"># reset var for next student row</span>
