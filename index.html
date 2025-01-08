@@ -9,21 +9,40 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+<style>
+  body {
+    font-family: Helvetica;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
 
+  .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #17a2b8;
+      color: white;
+      margin-top: 20px;
+    }
+</style>
+<body>
 
 <div class="container">
 <body>
 
 
-  <div class="container p-3 my-3 text-white">
+  <div class="container text-center p-3 my-3 text-white">
 
   <h1 class="display-1"><span style="color:#17a2b8;font-weight: bold;">Alexander S. Corey</span></h1>
 
   <h2 class="display-4"><small><span style="color:#17a2b8">Engineer</span></small></h2>
 </div>
 
-<nav class="navbar navbar-expand-sm bg-info navbar-dark justify-content-center sticky-top">
-  <ul class="navbar-nav">
+<nav class="navbar navbar-expand-sm bg-info navbar-dark sticky-top">
+  <div class="container">
+  <ul class="navbar-nav mx-auto">
     <li class="nav-item active">
       <a class="nav-link" href="index.html">Home</a>
     </li>
@@ -40,13 +59,14 @@
       <a class="nav-link" href="https://linkedin.com/in/alexander-s-corey" target="_blank" rel="noopener noreferrer">Linkedin</a>
     </li>
   </ul>
+</div>
 </nav>
 
 
-<div class="container">   
- <img class="img-fluid" src="images/JamsilStadium.jpg" alt="Picture of Alex here">       
+<div class="container text-center my-4">   
+ <img class="img-fluid rounded" src="images/JamsilStadium.jpg" alt="Picture of Alex here">       
 
-    <p>Alex at Jamsil Baseball Stadium in Seoul, South Korea</p>   
+ <p class="mt-2">Alex at Jamsil Baseball Stadium in Seoul, South Korea</p>   
 </div>
 
 
@@ -81,6 +101,9 @@
   </div>
 </div>
 
+<footer class="footer">
+  <p>&copy; 2025 Alexander S. Corey </p>
+</footer>
 </body>
 </div>
 </html> 
