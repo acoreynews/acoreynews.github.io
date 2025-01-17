@@ -1,60 +1,56 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <title>Alexander S. Corey</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
+  <head>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark" />
+    <link rel="stylesheet" href="css/pico.min.css" />
+    <style>
+      /* Reduce the container width */
+      .container {
+        max-width: 800px; /* Adjust the value to your desired width */
+      }
+    </style>
+    <title>Alexander S. Corey</title>
+  </head>
+  <body>
+     <main class="container"> 
+      
 
-<style>
-.vertical-center {
-  min-height: 75%; 
-  min-height: 75vh;
-
-  display: flex;
-  align-items: center;
-}
-</style>
-
-<body>
-
-
-<nav class="navbar navbar-expand-sm bg-info navbar-dark justify-content-center sticky-top">
-  <ul class="navbar-nav">
-       <li class="nav-item active">
-      <a class="nav-link" href="index.html">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="bio.html">About me</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="static/AlexCoreyResume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="https://github.com/acoreynews" target="_blank" rel="noopener noreferrer">Github</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="https://linkedin.com/in/alexander-s-corey" target="_blank" rel="noopener noreferrer">Linkedin</a>
-    </li>
+<nav>
+  <ul>
+    <li><a href="index.html">Alexander S. Corey</a></li>
+</ul>
+  <ul>
+    <li><a href="#">About Me</a></li>
+    <li><a href="AlexCoreyResume.pdf" target="_blank" class="contrast">Resume</a></li>
+    <li><a href="https://github.com/acoreynews" target="_blank" class="contrast">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/alexander-s-corey" target="_blank" class="contrast">LinkedIn</a></li>
   </ul>
 </nav>
 
-<div class="col-sm-2 mx-auto">
-<div class="container vertical-center">
-  <div class="card" style="width:500px;">
-    <img class="card-img-top" src="images/redrock.jpg" alt="Photo of Alex" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">Alexander S. Corey</h4>
-      <p class="card-text">I'm an engineer interested in python, devops, data and news media. <br>For the past 8 years, I've worked in network operations center engineer roles across three companies. <br>Prior to that, I worked as a journalist in San Diego, Phoenix and Las Vegas before going back to school for computer science and beginning a career in IT.</p>
-    </div>
-  </div>
-  <br>
-</div>
 
-</body>
-</html> 
+<figure>
+  <img
+    src="images/JamsilStadium.jpg"
+    alt="Picture of Alex here"
+  />
+  <figcaption>
+    Alex at Jamsil Baseball Stadium in Seoul, South Korea
+  </figcaption>
+</figure>
+
+
+<blockquote>
+  “I'm an engineer interested in python, devops, data and news media. <br>For the past 8 years, I've worked in network operations center engineer roles across three companies. <br>Prior to that, I worked as a journalist in San Diego, Phoenix and Las Vegas before going back to school for computer science and beginning a career in IT.”
+
+</blockquote>
+
+</main>
+
+  </body>
+</html>

@@ -1,109 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <title>Alexander S. Corey</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
-<style>
-  body {
-    font-family: Helvetica;
-    background-color: #f8f9fa;
-    color: #333;
-  }
-  .navbar {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+  <head>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark" />
+    <link rel="stylesheet" href="css/pico.min.css" />
+    <style>
+      /* Reduce the container width */
+      .container {
+        max-width: 800px; /* Adjust the value to your desired width */
+      }
+    </style>
+    <title>Alexander S. Corey</title>
+  </head>
+  <body>
+     <main class="container"> 
+      
 
-  .footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #17a2b8;
-      color: white;
-      margin-top: 20px;
-    }
-</style>
-<body>
-
-<div class="container">
-<body>
-
-
-  <div class="container text-center p-3 my-3 text-white">
-
-  <h1 class="display-1"><span style="color:#17a2b8;font-weight: bold;">Alexander S. Corey</span></h1>
-
-  <h2 class="display-4"><small><span style="color:#17a2b8">Engineer</span></small></h2>
-</div>
-
-<nav class="navbar navbar-expand-sm bg-info navbar-dark sticky-top">
-  <div class="container">
-  <ul class="navbar-nav mx-auto">
-    <li class="nav-item active">
-      <a class="nav-link" href="index.html">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="bio.html">About me</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="static/AlexCoreyResume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="https://github.com/acoreynews" target="_blank" rel="noopener noreferrer">Github</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="https://linkedin.com/in/alexander-s-corey" target="_blank" rel="noopener noreferrer">Linkedin</a>
-    </li>
+<nav>
+  <ul>
+    <li><a href="#">Alexander S. Corey</a></li>
+</ul>
+  <ul>
+    <li><a href="bio.html">About Me</a></li>
+    <li><a href="AlexCoreyResume.pdf" target="_blank" class="contrast">Resume</a></li>
+    <li><a href="https://github.com/acoreynews" target="_blank" class="contrast">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/alexander-s-corey" target="_blank" class="contrast">LinkedIn</a></li>
   </ul>
-</div>
 </nav>
 
 
-<div class="container text-center my-4">   
- <img class="img-fluid rounded" src="images/JamsilStadium.jpg" alt="Picture of Alex here">       
+<article data-theme="dark">
+  <details open>
+  <summary><a href="Python.html" target="_blank" class="contrast">Class Scores (Python)</a></summary>
+  <p>A Python program that reads a specifically formatted csv file
+    for an instructor's student grades and creates a web page
+    with the scores.</p>
+</details>
+</article>
 
- <p class="mt-2">Alex at Jamsil Baseball Stadium in Seoul, South Korea</p>   
-</div>
+<article data-theme="dark">
+  <details open>
+  <summary><a href="RubyScrabble.html" target="_blank" class="contrast">Scrabble word score (Ruby)</a></summary>
+  <p>A Ruby program that calculates a Scrabble word score.</p>
+</details>
+</article>
+
+<article data-theme="dark">
+  <details open>
+  <summary><a href="WeatherCalculatorCPP.html" target="_blank" class="contrast">Weather Calculator (C++)</a></summary>
+  <p>A C++ program that prompts the user to input three weather-related values and outputs the wind chill factor and heat index.</p>
+</details>
+</article>
 
 
-<div class="container p-3 my-3 text-black">
-  <h1 class="display-3 text-center"><span style="font-weight:bold">Projects</span></h1></br>
-  <div class="card-columns">
-    <div class="card bg-primary">
-      <div class="card-body text-center">
-        <a href="Python.html" target="_blank" rel="noopener noreferrer"><span style="color:white;font-size:20px">Final grade webpage generator</br>(Python)</span></a>
-      </div>
-    </div>
-    <div class="card bg-danger">
-      <div class="card-body text-center">
-        <a href="Ruby.html" target="_blank" rel="noopener noreferrer"><span style="color:white;font-size:20px">Final grade webpage generator</br>(Ruby)</span></a>
-      </div>
-    </div>
-    <div class="card bg-danger">
-      <div class="card-body text-center">
-        <a href="RubyScrabble.html" target="_blank" rel="noopener noreferrer"><span style="color:white;font-size:20px">Scrabble score calculator</br>(Ruby)</span></a>
-      </div>
-    </div>  
-    <div class="card bg-warning">
-      <div class="card-body text-center">
-        <a href="NumberOperations.html" target="_blank" rel="noopener noreferrer"><span style="color:white;font-size:20px">Number operations program</br>(C++)</span></a>
-      </div>
-    </div>
-     <div class="card bg-warning">
-      <div class="card-body text-center">
-        <a href="WeatherCalculatorCPP.html" target="_blank" rel="noopener noreferrer"><span style="color:white;font-size:20px">Weather calculator</br>(C++ 14)</span></a>
-      </div>
-    </div>
-  </div>
-</div>
 
-<footer class="footer">
-  <p>&copy; 2025 Alexander S. Corey </p>
-</footer>
-</body>
-</div>
-</html> 
+
+</main>
+
+  </body>
+</html>
